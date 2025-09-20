@@ -543,58 +543,74 @@
     },
     "canciones": [
         {
+            "id": 1,
             "nombre": "Los hermanos",
             "autor": "Los Tipitos",
             "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3",
             "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
         },
         {
+            "id": 2,
             "nombre": "La sanatera",
             "autor": "Los Tipitos",
             "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3",
             "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
         },
         {
+            "id": 3,
             "nombre": "El ladrón",
             "autor": "Los Tipitos",
             "audio": "./assets/canciones/Juegos de Seducción.mp3",
             "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
         },
         {
+            "id": 4,
             "nombre": "Peperina",
             "autor": "Serú Girán",
             "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
             "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
         },
         {
+            "id": 5,
             "nombre": "Parado en el medio de la vida",
             "autor": "Serú Girán",
             "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
             "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
         },
         {
+            "id": 6,
             "nombre": "Cara de velocidad",
             "autor": "Serú Girán",
             "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
             "audio": "./assets/canciones/Juegos de Seducción.mp3"
         },
         {
+            "id": 7,
             "nombre": "¿Por qué no puedo ser del jet-set?",
             "autor": "Soda Stereo",
             "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
             "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
         },
         {
+            "id": 8,
             "nombre": "Sobredosis de TV",
             "autor": "Soda Stereo",
             "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
             "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
         },
         {
+            "id": 9,
             "nombre": "Un misil en mi placard",
             "autor": "Soda Stereo",
             "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
             "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+        },
+        {
+            "id": 10,
+            "nombre": "Una nueva noche fría",
+            "autor": "Callejeros",
+            "portada": "./assets/images/bandas/Callejeros/presion.jpg",
+            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
         }
     ]
 }
