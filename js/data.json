@@ -5,7 +5,7 @@
             "albumes": [
                 {
                     "nombre":"Amor amarillo",
-                    "portada": "./assets/images/artistas/Cerati/aa.jpg",
+                    "portada": "./assets/images/artistas/Cerati/amorAmarillo.jpg",
                     "canciones": [
                         {
                             "nombre": "Amor amarillo",
@@ -20,50 +20,278 @@
                             "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
                         }
                     ]
-                }
-            ]
-        },
-        "Abel Pintos": {
-            "generos": ["Pop", "Folclore"],
-            "albumes": [
+                },
                 {
-                    "nombre": "Sentidos",
-                    "portada": "./assets/images/artistas/abel/sentidos.jpg",
+                    "nombre":"Bocanada",
+                    "portada": "./assets/images/artistas/Cerati/bocanada.jpg",
                     "canciones": [
                         {
-                            "nombre": "Tu voz",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Paseo inmoral",
+                            "audio": "./assets/canciones/gustavo cerati - paseo inmoral.mp3"
                         },
                         {
-                            "nombre": "Sueño dorado",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Puente",
+                            "audio": "./assets/canciones/Gustavo Cerati - Puente.mp3"
+                        }
+                    ]
+                },
+                 {
+                    "nombre":"Ahi vamos",
+                    "portada": "./assets/images/artistas/Cerati/ahiVamos.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "La excepción",
+                            "audio": "./assets/canciones/Gustavo Cerati - La excepcion.mp3"
                         },
                         {
-                            "nombre": "Soledad",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Lago en el cielo",
+                            "audio": "./assets/canciones/Gustavo Cerati - Lago en el cielo.mp3"
+                        },
+                        {
+                            "nombre": "Bomba de tiempo",
+                            "audio": "./assets/canciones/gustavo cerati - bomba de tiempo.mp3"
+                        },
+                        {
+                            "nombre": "Me quedo aqui",
+                            "audio": "./assets/canciones/Gustavo Cerati - Me quedo aquí.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre":"Siempre es hoy",
+                    "portada": "./assets/images/artistas/Cerati/siempreEsHoy.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Cosas imposibles",
+                            "audio": "./assets/canciones/gustavo cerati - cosas imposibles.mp3"
+                        },
+                        {
+                            "nombre": "Amo dejarte asi",
+                            "audio": "./assets/canciones/gustavo cerati - amo dejarte asi.mp3"
+                        },
+                        {
+                            "nombre": "Tu cicatriz en mi",
+                            "audio": "./assets/canciones/gustavo cerati -  tu cicatriz en mi.mp3"
+                        }
+                    ]
+                },
+                 {
+                    "nombre":"Fuerza natural",
+                    "portada": "./assets/images/artistas/Cerati/fuerzaNatural.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Fuerza Natural",
+                            "audio": "./assets/canciones/gustavo cerati fuerza natural.mp3"
+                        },
+                        {
+                            "nombre": "Deja vu",
+                            "audio": "./assets/canciones/Gustavo Cerati -  Deja vu.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre":"11 episodios sinfonicos",
+                    "portada": "./assets/images/artistas/Cerati/episodiosSinfonicos.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Corazon delator",
+                            "audio": "./assets/canciones/gustavo cerati - corazon delator.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre":"Cerati infinito",
+                    "portada": "./assets/images/artistas/Cerati/ceratiInfinito.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Rapto",
+                            "audio": "./assets/canciones/gustavo cerati rapto.mp3"
+                        },
+                        {
+                            "nombre": "Te llevo para que me lleves",
+                            "audio": "./assets/canciones/gustavo cerati - te llevo para que me lleves.mp3"
                         }
                     ]
                 }
             ]
         },
-        "Carlos Gardel": {
-            "generos": ["clasica", "tango"],
+        "Led Zeppelin": {
+            "generos": ["Hard Rock", "Folk Rock"],
             "albumes": [
                 {
-                    "nombre": "Carlos Gardel",
-                    "portada": "./assets/images/artistas/gardel/cg.jpg",
+                    "nombre": "Led Zeppelin 1",
+                    "portada": "./assets/images/artistas/LedZeppelin/ledZeppelin.jpg",
                     "canciones": [
                         {
-                            "nombre": "Adiós muchachos",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Babe I'm Gonna Leave You",
+                            "audio": "./assets/canciones/Led Zeppelin - Babe I'm Gonna Leave You (Official Audio).mp3"
                         },
                         {
-                            "nombre": "Ramona",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Good Times Bad Times",
+                            "audio": "./assets/canciones/Led Zeppelin - Good Times Bad Times (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Led Zeppelin 2",
+                    "portada": "./assets/images/artistas/LedZeppelin/LedZeppelinII.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Lemon Song",
+                            "audio": "./assets/canciones/The Lemon Song (Remaster).mp3"
                         },
                         {
-                            "nombre": "Mi Buenos Aires querido",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "What Is and What Should Never Be ",
+                            "audio": "./assets/canciones/What Is and What Should Never Be (Remaster).mp3"
+                        },
+                        {
+                            "nombre": "Whole Lotta Love",
+                            "audio": "./assets/canciones/Whole Lotta Love (Remaster).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Led Zeppelin 3",
+                    "portada": "./assets/images/artistas/LedZeppelin/LedZeppelinIII.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Celebration Day ",
+                            "audio": "./assets/canciones/Celebration Day (Remaster).mp3"
+                        },
+                        {
+                            "nombre": "Friends ",
+                            "audio": "./assets/canciones/Friends (Remaster).mp3"
+                        },
+                        {
+                            "nombre": "Immigrant Song",
+                            "audio": "./assets/canciones/Immigrant Song (Remaster).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Led Zeppelin 4",
+                    "portada": "./assets/images/artistas/LedZeppelin/LedZeppelinIV.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Stairway To Heaven ",
+                            "audio": "./assets/canciones/Led Zeppelin - Stairway To Heaven (HQ).mp3"
+                        },
+                        {
+                            "nombre": "Babe I'm Gonna Leave You ",
+                            "audio": "./assets/canciones/Led Zeppelin - Babe I'm Gonna Leave You (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Rock and Roll",
+                            "audio": "./assets/canciones/Led Zeppelin - Rock and Roll HQ.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "In Through the Out Door",
+                    "portada": "./assets/images/artistas/LedZeppelin/In Through the Out Door.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "In the Evening ",
+                            "audio": "./assets/canciones/In the Evening (Remaster).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": " Mothership ",
+                    "portada": "./assets/images/artistas/LedZeppelin/mothership.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Good Times Bad Times ",
+                            "audio": "./assets/canciones/Led Zeppelin - Good Times Bad Times (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": " Remasters ",
+                    "portada": "./assets/images/artistas/LedZeppelin/Remasters.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Communication Breakdown ",
+                            "audio": "./assets/canciones/1.01   Communication Breakdown.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Shakira": {
+            "generos": ["pop", "latino"],
+            "albumes": [
+                {
+                    "nombre": "Pies descalsos",
+                    "portada": "./assets/images/artistas/Shakira/piesDescalzos.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Estoy aqui",
+                            "audio": "./assets/canciones/Shakira - Estoy aqui .mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Donde estan los ladrones",
+                    "portada": "./assets/images/artistas/Shakira/dondeEstanLosLadrones.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Donde estan los ladrones",
+                            "audio": "./assets/canciones/Shakira - Donde estan los ladrones.mp3"
+                        },
+                        {
+                            "nombre": "Ciega, sordamuda",
+                            "audio": "./assets/canciones/Shakira - Ciega, sordomuda .mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Unplugged",
+                    "portada": "./assets/images/artistas/Shakira/unplugged.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Inevitable",
+                            "audio": "./assets/canciones/Shakira - Inevitable.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Ojos asi",
+                    "portada": "./assets/images/artistas/Shakira/ojosAsi.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Ojos asi",
+                            "audio": "./assets/canciones/(arabic & spanish) amr diab & shakira - ojos asi (thunder mix).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Rabiosa",
+                    "portada": "./assets/images/artistas/Shakira/rabiosa.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Rabiosa",
+                            "audio": "./assets/canciones/Shakira_-_Rabiosa_(Feat_El_Cata).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "El dorado",
+                    "portada": "./assets/images/artistas/Shakira/elDorado.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Waka waka",
+                            "audio": "./assets/canciones/shakira - waka waka.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Washed And Dried",
+                    "portada": "./assets/images/artistas/Shakira/washedAndDried.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Te aviso te anuncio",
+                            "audio": "./assets/canciones/Shakira - Te aviso te anuncio.mp3"
                         }
                     ]
                 }
@@ -612,5 +840,6 @@
             "portada": "./assets/images/bandas/Callejeros/presion.jpg",
             "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
         }
+        
     ]
 }
