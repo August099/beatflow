@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Proyecto1" content="">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./js/index.js"></script>
+</head>
+<body class="container m-0 p-0">
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Biblioteca</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">Generos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <a class="navbar-brand" href="#">S</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="row m-0 mt-5 px-4" id="canciones-sugerencias">
+        <h2 class="titulo col-12">Recomendaciones</h2>
+    </section>
+
+    <section class="row g-2 m-0 mt-5 px-4" id="mixes">
+        <h2 class="titulo">Mixes del dia</h2>
+    </section>
+
+    <section class="mt-5 px-4" id="artistas-sugerencias">
+        <h2 class="titulo">Artistas de tu estilo</h2>
+    </section>
+
+    <section class="mt-5 px-4" id="bandas-sugerencias">
+        <h2 class="titulo">Bandas de tu estilo</h2>
+    </section>
+
+    <section class="mt-5 px-4">
+        <h2 class="titulo">Shows que deberias ver</h2>
+        <div id="carouselExample2" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item p-5 active">
+                    <div class="w-75 m-auto sombra-video">
+                        <div class="ratio" style="--bs-aspect-ratio: 45%;">
+                            <iframe src="https://www.youtube.com/embed/ltOusQV2ogU?si=-BVKM_TJsBoQ3OJc" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="w-75 m-auto sombra-video">
+                        <div class="ratio" style="--bs-aspect-ratio: 45%;">
+                            <iframe src="https://www.youtube.com/embed/xk7fSD6MZeg?si=Yq2B0Kc6mRcGf0UC" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="w-75 m-auto sombra-video">
+                        <div class="ratio" style="--bs-aspect-ratio: 45%;">
+                            <iframe src="https://www.youtube.com/embed/JMzihl_sStA?si=G6TPymo2dqznv2c-" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev boton-carrusel-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next boton-carrusel-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <footer class="d-flex justify-content-between align-items-center px-4">
+        <div class="row w-25 h-100 flex-nowrap align-items-center">
+            <div class="col-4 col-lg-3 align-content-center p-0 ps-2 h-100">
+                <div style="height: 90%; aspect-ratio: 1/1;">
+                    <img id="imagen-reproductor" class="img-fluid object-fit-cover rounded" src="./assets/images/eminem.avif" alt="">
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-5 info-musica">
+                <h5 id="cancion-reproductor">cancion1</h5>
+                <h5 id="autor-reproductor">banda/artista</h5>
+            </div>
+            
+            <button class="col-2 d-none d-lg-block boton-icono guardar">
+                <i class="bi bi-heart fs-3"></i>
+            </button>
+            
+            <button class="col-2 boton-icono configuracion">
+                <i class="bi bi-gear-fill fs-3"></i>
+            </button>
+        </div>
+        <div class="reproducir row">
+            <div class="d-flex justify-content-around align-items-center">
+                <button class="boton-icono">
+                    <i class="bi bi-rewind-fill fs-3"></i>
+                </button>
+                <button class="boton-icono">
+                    <i class="bi bi-play-fill fs-1"></i>
+                </button>
+                <button class="boton-icono">
+                    <i class="bi bi-fast-forward-fill fs-3"></i>
+                </button>
+            </div>
+            <div class="d-flex justify-content-lg-between justify-content-md-center align-items-center">
+                <label class="d-none d-lg-block">00:00</label>
+                <input class="w-100" type="range" disabled>
+                <label class="d-none d-lg-block">04:00</label>
+            </div>
+        </div>
+        <div class="ajuste">
+            <div class="d-flex justify-content-between align-items-center">
+                <button class="boton-icono d-none d-lg-block">
+                    <i class="bi bi-volume-up-fill fs-3"></i>
+                </button>
+                <input class="d-none d-lg-block" type="range">
+                <button class="boton-icono">
+                    <i class="bi bi-chevron-up fs-3"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- TEMPLATES -->
+
+    <template id="template-sugerencia-canciones">
+        <div class="col-6 col-sm-4 col-lg-2 p-1">
+            <div class="card mb-3 escala-2">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="/Proyecto/assets/images/eminem.avif" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body m-0 w-100 h-100">
+                            <h5 class="card-title">Card title</h5>
+                            <button class="btn btn-primary btn-oculto rounded-circle p-0">
+                                <i class="bi bi-play-fill fs-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="template-sugerencia-mix">
+        <div class="d-flex justify-content-center align-items-center col-6 col-sm-3 col-lg-3">
+            <div class="card escala-1">
+                <div class="row g-0">
+                    <div class="position-relative">
+                        <img src="./assets/images/general/img mix.jpeg" class="img-fluid object-fit-cover rounded-top" alt="...">
+                        <button class="btn btn-primary btn-oculto-derecha rounded-circle p-0">
+                            <i class="bi bi-play-fill fs-4"></i>
+                        </button>
+                    </div>
+                    <div class="card-body p-2">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="template-sugerencia-carrusel">
+        <div>
+            <div class="d-flex justify-content-start align-items-center">
+                <img class="imagen-artista rounded-circle" src="/Proyecto/assets/images/eminem.avif">
+                <h3 class="sub-titulo ms-3">ejemplo</h3>
+            </div>
+            <div class="carrusel">
+                <button class="carrusel-boton carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <div class="carrusel-cuerpo">
+                    <div class="carrusel-items"></div>
+                </div>
+
+                <button class="carrusel-boton carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </template>
+    <template id="template-item-carrusel">
+    <div class="carrusel-item col-2 p-1">
+        <div class="card h-100 escala-0-95">
+            <div class="d-flex flex-column ">
+                <div class="position-relative">
+                    <div class="ratio ratio-4x3">
+                        <img src="./assets/images/general/img mix.jpeg" class="img-fluid card-img-top object-fit-cover rounded-top" alt="...">
+                    </div>
+                    <button class="btn btn-primary btn-oculto-derecha rounded-circle p-0">
+                        <i class="bi bi-play-fill fs-4"></i>
+                    </button>
+                </div>
+                <div class="card-body p-2">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </template>
+</body>
+</html>

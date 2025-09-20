@@ -1,0 +1,85 @@
+body {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  height: 100vh;
+  background: #0096C7;
+  background: radial-gradient(circle,rgba(0, 150, 199, 1) 0%, rgba(0, 119, 182, 1) 100%);
+}
+
+.navbar {
+    width: 100% !important;
+    padding: 5px !important;
+    padding-inline: 5% !important;
+    background: #023E8A;
+    background: linear-gradient(90deg,rgba(2, 62, 138, 0.6) 0%, rgba(2, 62, 138, 1) 50%, rgba(2, 62, 138, 0.6) 100%);
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg,rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.15) 100%) 1;
+}
+
+
+/* Contenedor del buscador */
+.contenedor-buscador {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.contenedor-buscador input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+}
+
+.contenedor-buscador button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #0f3443;
+  color: white;
+  cursor: pointer;
+}
+
+/* Lista de géneros */
+.lista-generos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 20px;
+}
+
+.genero {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.genero:nth-child(1) { background: linear-gradient(to right, #00c6ff, #0072ff); }
+.genero:nth-child(2) { background: linear-gradient(to right, #ff6a88, #ff99ac); }
+.genero:nth-child(3) { background: linear-gradient(to right, #00ff87, #60efff); }
+.genero:nth-child(4) { background: linear-gradient(to right, #f7971e, #ffd200); }
+.genero:nth-child(5) { background: linear-gradient(to right, #7f00ff, #e100ff); }
+.genero:nth-child(6) { background: linear-gradient(to right, #00c6ff, #0072ff); }
+.genero:nth-child(7) { background: linear-gradient(to right, #ffafbd, #ffc3a0); }
+.genero:nth-child(8) { background: linear-gradient(to right, #ff416c, #ff4b2b); }
+
+/* Resultados */
+#resultados {
+  margin: 30px;
+  padding: 20px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+#resultados iframe {
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+}

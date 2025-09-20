@@ -1,0 +1,600 @@
+{
+    "artistas": {
+        "Gustavo Cerati": {
+            "generos": ["rock", "alternativa"],
+            "albumes": [
+                {
+                    "nombre":"Amor amarillo",
+                    "portada": "./assets/images/artistas/Cerati/aa.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Amor amarillo",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Lisa",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Bajan",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Abel Pintos": {
+            "generos": ["Pop", "Folclore"],
+            "albumes": [
+                {
+                    "nombre": "Sentidos",
+                    "portada": "./assets/images/artistas/abel/sentidos.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Tu voz",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Sueño dorado",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Soledad",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Carlos Gardel": {
+            "generos": ["clasica", "tango"],
+            "albumes": [
+                {
+                    "nombre": "Carlos Gardel",
+                    "portada": "./assets/images/artistas/gardel/cg.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Adiós muchachos",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Ramona",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Mi Buenos Aires querido",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Duki": {
+            "generos": ["trap", "hip hop"],
+            "albumes": [
+                {
+                    "nombre": "Desde el fin del mundo",
+                    "portada": "./assets/images/artistas/duki/mbid-e9b90e20-d1c0-403b-8229-c18b03e5c5c0-32478634198_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "I Don't Know",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Pintao",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Chico estrella",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "bandas": {
+        "Soda Stereo": {
+            "generos": ["rock", "alternativa"],
+            "albumes": [
+                {
+                    "nombre": "Soda Stereo",
+                    "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "¿Por qué no puedo ser del jet-set?",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Sobredosis de TV",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Un misil en mi placard",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Nada personal",
+                    "portada": "./assets/images/bandas/Soda Stereo/mbid-f52826f5-cc71-4c9e-8cc2-bb05876dd02b-13553856584_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nada personal",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Cuando pase el temblor",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Juego de seducción",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Signos",
+                    "portada": "./assets/images/bandas/Soda Stereo/mbid-3009b58f-9bee-4286-9023-024baffa03ce-21437656884_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Signos",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Sin sobresaltos",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Prófugos",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Serú Girán": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Serú Girán",
+                    "portada": "./assets/images/bandas/Seru giran/mbid-5610f6e9-2fcc-40c4-a617-4022df9b6d83-7462302441_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "El mendigo en el andén",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Seminare",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Autos, jets, aviones, barcos",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "La grasa de las capitales",
+                    "portada": "./assets/images/bandas/Seru giran/mbid-1ab118c1-4ee2-40bd-89a3-18180ce8ebe3-29210303166_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "La grasa de las capitales",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Paranoia y soledad",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Noche de perros",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Peperina",
+                    "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Peperina",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Parado en el medio de la vida",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Cara de velocidad",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Patricio Rey y sus Redonditos de Ricota": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Oktubre",
+                    "portada": "./assets/images/bandas/Patricio rey/mbid-2afdb85c-738c-4a68-9d46-ffe32c138002-22424315483_thumb250.jpg",
+                    "canciones": [{
+                        "nombre": "Fuegos de octubre",
+                        "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                    },
+                    {
+                        "nombre": "Preso en mi ciudad",
+                        "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                    },
+                    {
+                        "nombre": "Música para pastillas",
+                        "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                    }]
+                },
+                {
+                    "nombre": "La mosca y la sopa",
+                    "portada": "./assets/images/bandas/Patricio rey/mys.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Toxi - Taxi",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Fusilados por la cruz roja",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Un poco de amor francés",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Lobo suelto - Cordero atado",
+                    "portada": "./assets/images/bandas/Patricio rey/ls.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Invocación",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Rock para el negro Atila",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Un ángel para tu soledad",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Los Piojos": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Chac tu chac",
+                    "portada": "./assets/images/bandas/Los piojos/chac.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Llevatelo",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Chac tu chac",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Tan solo",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ]
+                
+                },
+                {
+                    "nombre": "Ay ay ay",
+                    "portada": "./assets/images/bandas/Los piojos/ay.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Babilonia",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Ay ay ay",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Muy despacito",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Civilización",
+                    "portada": "./assets/images/bandas/Los piojos/mbid-6c220f30-ec5c-47db-abc2-7471da68fbe2-6590769497_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Civilización",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Pacífico",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Un buen día",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Ciro y Los Persas": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Espejos",
+                    "portada": "./assets/images/bandas/ciro y los persas/mbid-20096c57-00f1-4ef7-adc0-a55c0a5bebb5-9606331525_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Antes y después",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Insisto",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Espejo",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Naranja Persa",
+                    "portada": "./assets/images/bandas/ciro y los persas/mbid-0a59e98e-b1bf-43b1-b9b7-fbe535293241-34185348242_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Luz",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "¡Juira!",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Hoy Te Vas",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Guerras (Un viaje en el tiempo)",
+                    "portada": "./assets/images/bandas/ciro y los persas/mbid-512b3ab4-9d12-48c8-a067-f744a9e9170f-28041974680_thumb250.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Me gusta",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "El farolito",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Insisto",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Callejeros": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Sed",
+                    "portada": "./assets/images/bandas/Callejeros/sed.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Los invisibles",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "Rompiendo espejos",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Milonga del rocanrol",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Presión",
+                    "portada": "./assets/images/bandas/Callejeros/presion.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Presión",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Una nueva noche fría",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Fantasía y realidad",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                
+                },
+                {
+                    "nombre": "Rocanroles sin destino",
+                    "portada": "./assets/images/bandas/Callejeros/rsd.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Rocanroles sin destino",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Rebelde, agitador y revolucionario",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Todo eso",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Los Tipitos": {
+            "generos": ["rock"],
+            "albumes": [
+                {
+                    "nombre": "Cocrouchis",
+                    "portada": "./assets/images/bandas/Los tipitos/cor.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nena:",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "El poli",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Existen",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ] 
+                },
+                {
+                    "nombre": "Armando Camaleón",
+                    "portada": "./assets/images/bandas/Los tipitos/ac.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Campanas en la noche",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Brujería",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "En el cielo",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "De mi flor",
+                    "portada": "./assets/images/bandas/Los tipitos/dmf.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Los hermanos",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "La sanatera",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "El ladrón",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "generos": {
+        "rock": {
+            "Gustavo Cerati": "artista",
+            "Callejeros": "banda",
+            "Los Piojos": "banda",
+            "Soda Stereo": "banda",
+            "Patricio Rey y sus Redonditos de Ricota": "banda",
+            "Serú Girán": "banda",
+            "Los Tipitos": "banda",
+            "Ciro y Los Persas": "banda"
+        },
+        "pop": {
+            "Abel Pintos": "artista"
+        },
+        "trap": {
+            "Duki": "artista"
+        },
+        "folclore": {
+            "Abel Pintos": "artista"
+        },
+        "tango": {
+            "Carlos Gardel": "artista"
+        },
+        "alternativa": {
+            "Gustavo Cerati": "artista"
+        },
+        "clasica": {
+            "Carlos Gardel": "artista"
+        },
+        "hip hop": {
+            "Duki": "artista"
+        }
+    },
+    "canciones": [
+        {
+            "nombre": "Los hermanos",
+            "autor": "Los Tipitos",
+            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3",
+            "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
+        },
+        {
+            "nombre": "La sanatera",
+            "autor": "Los Tipitos",
+            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3",
+            "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
+        },
+        {
+            "nombre": "El ladrón",
+            "autor": "Los Tipitos",
+            "audio": "./assets/canciones/Juegos de Seducción.mp3",
+            "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
+        },
+        {
+            "nombre": "Peperina",
+            "autor": "Serú Girán",
+            "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
+            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+        },
+        {
+            "nombre": "Parado en el medio de la vida",
+            "autor": "Serú Girán",
+            "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
+            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+        },
+        {
+            "nombre": "Cara de velocidad",
+            "autor": "Serú Girán",
+            "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
+            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+        },
+        {
+            "nombre": "¿Por qué no puedo ser del jet-set?",
+            "autor": "Soda Stereo",
+            "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
+            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+        },
+        {
+            "nombre": "Sobredosis de TV",
+            "autor": "Soda Stereo",
+            "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
+            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+        },
+        {
+            "nombre": "Un misil en mi placard",
+            "autor": "Soda Stereo",
+            "portada": "./assets/images/bandas/Soda Stereo/mbid-1af7a733-8a03-46c7-b9dc-fc222ca17ac2-21437706262_thumb250.jpg",
+            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+        }
+    ]
+}
