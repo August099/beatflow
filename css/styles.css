@@ -22,14 +22,38 @@ body {
   background: var(--gradiente-fondo);
 }
 
-.navbar {
-    width: 100% !important;
-    padding: 5px !important;
-    padding-inline: 5% !important;
-    background: var(--color-medio);
-    background: linear-gradient(90deg,rgba(2, 62, 138, 0.6) 0%, rgba(2, 62, 138, 1) 50%, rgba(2, 62, 138, 0.6) 100%);
-    border-bottom: 1px solid;
-    border-image: linear-gradient(90deg,rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.15) 100%) 1;
+/* =======================
+    NAVBAR 
+   ======================= */
+nav {
+    background-color: var(--color-oscuro);
+    /* azul oscuro */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* hace responsive los links */
+    padding: 10px;
+}
+
+nav .nav-link, .navbar-brand {
+    color: white !important;
+    text-decoration: none;
+    margin: 5px 15px;
+    /* espacio entre links */
+    font-weight: normal;
+    font-size: larger;
+    transition: color 0.3s;
+}
+
+nav .nav-link:hover {
+    color: #00bfff !important;
+    /* azul claro al pasar mouse */
+}
+
+nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    /* marca el link activo */
 }
 
 .titulo {

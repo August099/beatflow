@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+:root {
+  --gradiente-fondo: radial-gradient(circle,rgba(0, 150, 199, 1) 0%, rgba(0, 119, 182, 1) 100%);
+  --color-claro: #00B4D8;
+  --color-semiclaro: #0096C7;
+  --color-medio: #0077B6;
+  --color-oscuro: #023E8A;
+  --color-fuerte: #03045E;
+  --color-fuente: whitesmoke;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--color-medio);
+}
+
+/* =======================
+    NAVBAR 
+   ======================= */
+nav {
+    background-color: var(--color-oscuro);
+    /* azul oscuro */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* hace responsive los links */
+    padding: 10px;
+}
+
+nav .nav-link, .navbar-brand {
+    color: white !important;
+    text-decoration: none;
+    margin: 5px 15px;
+    /* espacio entre links */
+    font-weight: normal;
+    font-size: larger;
+    transition: color 0.3s;
+}
+
+nav .nav-link:hover {
+    color: #00bfff !important;
+    /* azul claro al pasar mouse */
+}
+
+nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    /* marca el link activo */
+}
+
+p {
+    color: var(--color-fuente);
+    font-size: large;
+}
+
+.encabezado {
+    background: var(--color-oscuro);
+}
+
+.ordenar {
+    width: 100px;
+    height: 2rem;
+    background: var(--color-medio);
+    border-radius: 10px;
+    border: 2px solid var(--color-oscuro);
+    color: var(--color-fuente);
+}
+
+.full-height-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; /* Centrar vertical si pocos items */
+    padding: 20px;
+}
+.table-container {
+    background-color: var(--color-claro);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1; /* Para que ocupe todo el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.table-wrapper {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.contenedor-tabla {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.guardar {
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: red;
+}
+
+table {
+    flex: 1;
+    overflow-y: auto; /* Scroll si hay muchas canciones */
+}
+
+th {
+    background-color: var(--color-oscuro) !important;
+    color: var(--color-fuente) !important;
+}
+
+td {
+    background-color: var(--color-medio) !important;
+    color: var(--color-fuente) !important;
+}
+

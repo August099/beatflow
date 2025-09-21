@@ -27,7 +27,7 @@ async function cargar_mixes() {
     const template = document.getElementById("template-sugerencia-mix")
 
     for (let i = 0; i < 4; i++) {
-        const clone = template.content.cloneNode(true)
+        const clon = template.content.cloneNode(true)
         const cancionesSelec = []
         const canciones = []
 
@@ -37,9 +37,9 @@ async function cargar_mixes() {
             canciones.push(cancion.nombre)
         }
 
-        clone.querySelector(".card-title").textContent = `Mix diario ${i + 1}`
-        clone.querySelector(".card-text").textContent = canciones.join(', ')
-        contenedor.appendChild(clone)
+        clon.querySelector(".card-title").textContent = `Mix diario ${i + 1}`
+        clon.querySelector(".card-text").textContent = canciones.join(', ')
+        contenedor.appendChild(clon)
     }
 }
 
@@ -196,9 +196,23 @@ async function banda_aleatoria(excepciones = []) {
 }
 
 function reproducir_cancion (cancion) {
+    const usuario = JSON.parse(localStorage.getItem('usuario'))
+    cancionActual = cancion
+
     document.getElementById('imagen-reproductor').src = cancion.portada
     document.getElementById('cancion-reproductor').textContent = cancion.nombre
     document.getElementById('autor-reproductor').textContent = cancion.autor
+
+    const btnGuardar = document.getElementById('guardar-cancion')
+    const iconoGuradar = btnGuardar.querySelector('i')
+
+    if (usuario.canciones.filter(obj => cancionActual.id === obj.id).length > 0) {
+        iconoGuradar.classList.remove('bi-heart')
+        iconoGuradar.classList.add('bi-heart-fill')
+    } else if (iconoGuradar.classList.contains('bi-heart-fill')) {
+        iconoGuradar.classList.remove('bi-heart-fill')
+        iconoGuradar.classList.add('bi-heart')
+    }
 
     const footer = document.querySelector('footer')
 
@@ -207,7 +221,6 @@ function reproducir_cancion (cancion) {
         footer.classList.add('d-flex')
     }
 
-    cancionActual = cancion
     audio.src = cancion.audio
     audio.play()
     audio.currentTime
@@ -355,11 +368,10 @@ function formato_tiempo(tiempo) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    
     const usuario = JSON.parse(localStorage.getItem('usuario'))
 
     if (!usuario) {
-        localStorage.setItem('usuario', JSON.stringify( { canciones: [], volumen: 0.5 } ))
+        localStorage.setItem('usuario', JSON.stringify( { canciones: [], volumen: 0.5, modo: 'oscuro', orden: 'cancion' } ))
     }
 
     activar_footer()

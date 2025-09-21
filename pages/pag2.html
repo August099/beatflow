@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Proyecto1" content="">
-    <title>pagina2</title>
-    <link rel="stylesheet" type="" href="/css/styles.css">
-    <script src="index.js"></script>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Proyecto1" content="">
+        <title>pagina2</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="" href="../css/pag2.css">
+        <script src="../js/pag2.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm">
+                <div class="container">
+                    <h4 class="text-light">BEATFLOW</h4>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a> <!-- mod -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pag2.html">Biblioteca</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pag3.html">Géneros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pag4.html">Premium</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container full-height-container">
+            <div class="table-container">
+                <div class="encabezado d-flex justify-content-between align-items-center p-2">
+                    <h2 class="titulo p-3 mb-0 text-white rounded-top">Biblioteca</h2>
+                    <div class="d-flex justify-content-center align-content-center">
+                        <p>Ordenar por: </p>
+                        <select id="ordenar" class="ordenar"><option value="artista">Artista</option><option value="cancion">Cancion</option></select>
+                    </div>
+                </div>
+                <div class="table-wrapper p-3">
+                    <div class="contenedor-tabla">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nombre de la canción</th>
+                                    <th>Artista</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="lista-canciones"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <template id="sin-canciones">
+            <tr>
+                <td colspan="4"><h3 class="mensaje">No se han agregado canciones</h3></td>
+            </tr>
+        </template>
+        <template id="template-cancion">
+            <tr>
+                <td><h3 class="numero"></h3></td>
+                <td><h4 class="nombre"></h4></td>
+                <td><h4 class="autor"></h4></td>
+                <td>
+                    <button class="d-none d-lg-block guardar" style="width: 10%;">
+                        <i class="bi bi-heart-fill fs-3"></i>
+                    </button>
+                </td>
+            </tr>
+        </template>
+    </body>
 </html>
