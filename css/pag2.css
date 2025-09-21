@@ -13,6 +13,10 @@
   --color-fuente: whitesmoke;
 }
 
+* {
+    font-family: 'Quicksand';
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -65,7 +69,7 @@ p {
 .ordenar {
     width: 100px;
     height: 2rem;
-    background: var(--color-medio);
+    background: var(--color-semiclaro);
     border-radius: 10px;
     border: 2px solid var(--color-oscuro);
     color: var(--color-fuente);

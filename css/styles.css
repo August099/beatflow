@@ -13,6 +13,10 @@
   --color-fuente: whitesmoke;
 }
 
+* {
+    font-family: 'Quicksand';
+}
+
 body {
   position: relative;
   width: 100%;
@@ -58,14 +62,12 @@ nav .nav-link.active {
 
 .titulo {
   color: var(--color-fuente);
-  font-family: Quicksand;
   font-size: 3rem;
   padding-left: 0 !important;
 }
 
 .sub-titulo {
   color: var(--color-fuente);
-  font-family: Quicksand;
 }
 
 .imagen-artista {
