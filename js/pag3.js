@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const canciones = {
   metal: [
-    { titulo: "Wherever i may roam - Metallica", youtube: "g9sqR0RlBa0" },
     { titulo: "Enter SandMan - Metallica", youtube: "27VUD3XNZII" }//funciona
   ],
   rock: [
