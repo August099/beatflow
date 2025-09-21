@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const canciones = {
   metal: [
-    { titulo: "Wherever i may roam - Metallica", youtube: "g9sqR0RlBa0" },
     { titulo: "Enter SandMan - Metallica", youtube: "27VUD3XNZII" }//funciona
   ],
   rock: [
@@ -13,25 +12,22 @@ document.addEventListener('DOMContentLoaded', function() {
     { titulo: "Without Me - Eminem", youtube: "bRWem1X8yPA" }//funciona
   ],
   romantica: [
-    { titulo: "Viva la vida - Coldplay", youtube: "ehp9Kpp_UYo" },
-    { titulo: "Paradise - Coldplay", youtube: "ldLi16uKOwo" }//funciona
+    { titulo: "Paradise - Coldplay", youtube: "ldLi16uKOwo" },//funciona
   ],
   alternativo: [
     { titulo: "Counting Stars - OneRepublic", youtube: "SRJ6E031I3k" },//funciona
     { titulo: "Something Just Like This - The Chainsmokers & Coldplay", youtube: "R03zGFy65dw" }//funciona
   ],
   tecno: [
-    { titulo: "Dangerous - David Guetta", youtube: "QcNyI01eA8I" },//funciona
-    { titulo: "Barbie Girl - Aqua", youtube: "GwkNTnSxnZ8" }//funciona
+    { titulo: "Dangerous - David Guetta", youtube: "QcNyI01eA8I" }//funciona
   
   ],
   cumbia: [
-    { titulo: "La Cumbia de los Trapos - Yerba Brava", youtube: "wRbKBJg1QFU&list=RDwRbKBJg1QFU" },
-    { titulo: "Nunca Me Faltes - Antonio Ríos", youtube: "rrrSGplAgOs&list=RDrrrSGplAgOs" }
+    { titulo: "Something Just Like This - The Chainsmokers & Coldplay", youtube: "R03zGFy65dw" }//funciona
   ],
   latino: [
-    { titulo: "Dakiti Remix - Bad Bunny x Jhay Cortez", youtube: "uNh9THARC6c" },//funciona
-    { titulo: "TQG - KAROL G, Shakira", youtube: "qGhUW8MARhE" }//funciona
+    { titulo: "TQG - KAROL G, Shakira", youtube: "qGhUW8MARhE" },//funciona
+    { titulo: "On The Floor - Jennifer Lopez ft. Pitbull", youtube: "2J9Op6f-MMM" },//funciona
   ]
 };
 

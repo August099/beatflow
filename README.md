@@ -9,7 +9,8 @@ Permite explorar canciones, artistas, bandas y shows recomendados, ofreciendo un
 - 🎶 Recomendaciones de canciones.  
 - 🎧 Mixes del día.  
 - 👩‍🎤 Artistas y bandas sugeridas.  
-- 🎤 Carrusel con shows destacados (integración con YouTube).  
+- 🎤 Carrusel con shows destacados (integración con YouTube).
+- 🔍 Buscador para encontrar canciones, artistas o mixes rápidamente. 
 - ▶️ Reproductor integrado con controles de reproducción, volumen y favoritos.  
 - 🌙 Modo oscuro/claro que se guarda en localStorage para mantener la preferencia del usuario.
 - 📱 Diseño responsive gracias a **Bootstrap**.

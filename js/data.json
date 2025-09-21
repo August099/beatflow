@@ -355,6 +355,34 @@
                             "audio": "./assets/canciones/Imagine Dragons - Amsterdam.mp3"
                         }
                     ]
+                },
+                {
+                    "nombre": "evolve",
+                    "portada": "./assets/images/artistas/ImagineDragons/evolve.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Amsterdam",
+                            "audio": "./assets/canciones/Imagine Dragons - Amsterdam.mp3"
+                        },
+                        {
+                            "nombre": "Demons",
+                            "audio": "./assets/canciones/Imagine Dragons - Demons.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "smoke Mirrors",
+                    "portada": "./assets/images/artistas/ImagineDragons/smokeMirrors.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Hear me",
+                            "audio": "./assets/canciones/Imagine Dragons - Hear me.mp3"
+                        },
+                        {
+                            "nombre": "It's Time",
+                            "audio": ".assets/canciones/Imagine Dragons - It's Time.mp3"
+                        }
+                    ]
                 }
             ]
         }
