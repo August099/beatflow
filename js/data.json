@@ -378,6 +378,50 @@
                             "audio": "./assets/canciones/Juegos de Seducción.mp3"
                         }
                     ]
+                },
+                {
+                    "nombre": "Obras Cumbres",
+                    "portada": "./assets/images/bandas/Soda Stereo/obrasCumbres.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Profugos",
+                            "audio": "./assets/canciones/Soda Stereo - Profugos.mp3"
+                        },
+                        {
+                            "nombre": "Cuando pase el temblor",
+                            "audio": "./aassets/canciones/Soda Stereo - cuando pase el temblor.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Cancion Animal",
+                    "portada": "./assets/images/bandas/Soda Stereo/cancionAnimal.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Entre canibales",
+                            "audio": "./assets/canciones/Soda Stereo - Entre Canibales.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Doble vida",
+                    "portada": "./assets/images/bandas/Soda Stereo/dobleVida.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "En la ciudad de la furia",
+                            "audio": "./assets/canciones/Soda Stereo - En la ciudad de la furia.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Soda Stereo",
+                    "portada": "./assets/images/bandas/Soda Stereo/sodaStereo.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Angel Electrico",
+                            "audio": "./assets/canciones/Soda Stereo - Angel electrico.mp3"
+                        }
+                    ]
                 }
             ]
         },
@@ -435,6 +479,54 @@
                         {
                             "nombre": "Cara de velocidad",
                             "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Bicleta",
+                    "portada": "./assets/images/bandas/Seru giran/bicicleta.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Canción De Alicia En El País",
+                            "audio": "./assets/canciones/Canción De Alicia En El País (Remastered 2012).mp3"
+                        },
+                        {
+                            "nombre": "Cuánto Tiempo Más Llevará",
+                            "audio": "./assets/canciones/Cuánto Tiempo Más Llevará_ (Remastered 2012).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Seru Giran - 92",
+                    "portada": "./assets/images/bandas/Seru giran/SeruGiran92.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Mundo Agradable",
+                            "audio": "./assets/canciones/Mundo Agradable.mp3"
+                        },
+                        {
+                            "nombre": "Queen Elizabeth",
+                            "audio": "./assets/canciones/Queen Elizabeth.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Seru Giran - 92",
+                    "portada": ".assets/images/bandas/Seru giran/oro.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Mundo Agradable",
+                            "audio": "./assets/canciones/Mundo Agradable.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Sus Grandes Exitos",
+                    "portada": "assets/images/bandas/Seru giran/susGrandesExitos.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Queen Elizabeth",
+                            "audio": "./assets/canciones/Queen Elizabeth.mp3"
                         }
                     ]
                 }
@@ -611,6 +703,48 @@
                         {
                             "nombre": "Insisto",
                             "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Ciro - 27",
+                    "portada": "./assets/images/bandas/ciro y los persas/ciro27.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Astros",
+                            "audio": "./assets/canciones/Ciro - 27 - Astros.mp3"
+                        },
+                        {
+                            "nombre": "Caminando",
+                            "audio": "./assets/canciones/Ciro - 27 - Caminando.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Naranja Persa2",
+                    "portada": "./assets/images/bandas/ciro y los persas/naranjaPersa2.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Dice",
+                            "audio": "./assets/canciones/Dice.mp3"
+                        },
+                        {
+                            "nombre": "Dale Darling",
+                            "audio": "./assets/canciones/Dale Darling.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Sueños",
+                    "portada": "./assets/images/bandas/ciro y los persas/sueños.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Un Hombre Más",
+                            "audio": "./assets/canciones/Un Hombre Más (Sinfónico).mp3"
+                        },
+                        {
+                            "nombre": "Ando Ganas",
+                            "audio": "./assets/canciones/Ando Ganas (Llora Llora) (Sinfónico).mp3"
                         }
                     ]
                 }
