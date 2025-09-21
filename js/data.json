@@ -550,7 +550,7 @@
                 },
                 {
                     "nombre": "Seru Giran - 92",
-                    "portada": ".assets/images/bandas/Seru giran/oro.jpg",
+                    "portada": "./assets/images/bandas/Seru giran/oro.jpg",
                     "canciones": [
                         {
                             "nombre": "Mundo Agradable",
@@ -1086,53 +1086,20 @@
             ]
         }
     },
-    "generos": {
-        "rock": {
-            "Gustavo Cerati": "artista",
-            "Callejeros": "banda",
-            "Los Piojos": "banda",
-            "Soda Stereo": "banda",
-            "Patricio Rey y sus Redonditos de Ricota": "banda",
-            "Serú Girán": "banda",
-            "Los Tipitos": "banda",
-            "Ciro y Los Persas": "banda"
-        },
-        "pop": {
-            "Abel Pintos": "artista"
-        },
-        "trap": {
-            "Duki": "artista"
-        },
-        "folclore": {
-            "Abel Pintos": "artista"
-        },
-        "tango": {
-            "Carlos Gardel": "artista"
-        },
-        "alternativa": {
-            "Gustavo Cerati": "artista"
-        },
-        "clasica": {
-            "Carlos Gardel": "artista"
-        },
-        "hip hop": {
-            "Duki": "artista"
-        }
-    },
     "canciones": [
         {
             "id": 1,
-            "nombre": "Los hermanos",
-            "autor": "Los Tipitos",
-            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3",
-            "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
+            "nombre": "Amsterdam",
+            "autor": "Imagine Dragons",
+            "audio": "./assets/canciones/Imagine Dragons - Amsterdam.mp3",
+            "portada": "./assets/images/artistas/ImagineDragons/evolve.jpg"
         },
         {
             "id": 2,
-            "nombre": "La sanatera",
-            "autor": "Los Tipitos",
-            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3",
-            "portada": "./assets/images/bandas/Los tipitos/dmf.jpg"
+            "nombre": "Astros",
+            "autor": "Ciro y Los Persas",
+            "audio": "./assets/canciones/Ciro - 27 - Astros.mp3",
+            "portada": "./assets/images/bandas/ciro y los persas/mbid-0a59e98e-b1bf-43b1-b9b7-fbe535293241-34185348242_thumb250.jpg"
         },
         {
             "id": 3,
@@ -1143,17 +1110,17 @@
         },
         {
             "id": 4,
-            "nombre": "Peperina",
+            "nombre": "Cuánto Tiempo Más Llevará",
             "autor": "Serú Girán",
             "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
-            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+            "audio": "./assets/canciones/Cuánto Tiempo Más Llevará_ (Remastered 2012).mp3"
         },
         {
             "id": 5,
-            "nombre": "Parado en el medio de la vida",
+            "nombre": "Canción De Alicia En El País",
             "autor": "Serú Girán",
             "portada": "./assets/images/bandas/Seru giran/mbid-51ac6ba2-b7a5-4803-9e8c-deee36f4f48d-9919994232_thumb250.jpg",
-            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+            "audio": "./assets/canciones/Canción De Alicia En El País (Remastered 2012).mp3"
         },
         {
             "id": 6,
