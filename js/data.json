@@ -297,24 +297,62 @@
                 }
             ]
         },
-        "Duki": {
-            "generos": ["trap", "hip hop"],
+        "Imagine Dragons": {
+            "generos": ["rock pop", "rock pop"],
             "albumes": [
                 {
-                    "nombre": "Desde el fin del mundo",
-                    "portada": "./assets/images/artistas/duki/mbid-e9b90e20-d1c0-403b-8229-c18b03e5c5c0-32478634198_thumb250.jpg",
+                    "nombre": "evolve",
+                    "portada": "./assets/images/artistas/ImagineDragons/evolve.jpg",
                     "canciones": [
                         {
-                            "nombre": "I Don't Know",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Amsterdam",
+                            "audio": "./assets/canciones/Imagine Dragons - Amsterdam.mp3"
                         },
                         {
-                            "nombre": "Pintao",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "Demons",
+                            "audio": "./assets/canciones/Imagine Dragons - Demons.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "smoke Mirrors",
+                    "portada": "./assets/images/artistas/ImagineDragons/smokeMirrors.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Hear me",
+                            "audio": "./assets/canciones/Imagine Dragons - Hear me.mp3"
                         },
                         {
-                            "nombre": "Chico estrella",
-                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                            "nombre": "It's Time",
+                            "audio": ".assets/canciones/Imagine Dragons - It's Time.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Night Visions",
+                    "portada": "./assets/images/artistas/ImagineDragons/nightVsions.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Radioactive",
+                            "audio": "./assets/canciones/Imagine Dragons - Radioactive.mp3"
+                        },
+                        {
+                            "nombre": "Tiptoe",
+                            "audio": ".assets/canciones/Imagine Dragons - Tiptoe.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Origins",
+                    "portada": "./assets/images/artistas/ImagineDragons/origins.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Hear me",
+                            "audio": "./assets/canciones/Imagine Dragons - Hear me.mp3"
+                        },
+                        {
+                            "nombre": "Amsterdam",
+                            "audio": "./assets/canciones/Imagine Dragons - Amsterdam.mp3"
                         }
                     ]
                 }
@@ -522,7 +560,7 @@
                 },
                 {
                     "nombre": "Sus Grandes Exitos",
-                    "portada": "assets/images/bandas/Seru giran/susGrandesExitos.jpg",
+                    "portada": "./assets/images/bandas/Seru giran/susGrandesExitos.jpg",
                     "canciones": [
                         {
                             "nombre": "Queen Elizabeth",
@@ -535,6 +573,58 @@
         "Patricio Rey y sus Redonditos de Ricota": {
             "generos": ["rock"],
             "albumes": [
+                {
+                    "nombre": "Oktubre",
+                    "portada": "./assets/images/bandas/Patricio rey/mbid-2afdb85c-738c-4a68-9d46-ffe32c138002-22424315483_thumb250.jpg",
+                    "canciones": [{
+                        "nombre": "Fuegos de octubre",
+                        "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                    },
+                    {
+                        "nombre": "Preso en mi ciudad",
+                        "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                    },
+                    {
+                        "nombre": "Música para pastillas",
+                        "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                    }]
+                },
+                {
+                    "nombre": "La mosca y la sopa",
+                    "portada": "./assets/images/bandas/Patricio rey/mys.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Toxi - Taxi",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Fusilados por la cruz roja",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Un poco de amor francés",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Lobo suelto - Cordero atado",
+                    "portada": "./assets/images/bandas/Patricio rey/ls.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Invocación",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Rock para el negro Atila",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "Un ángel para tu soledad",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
                 {
                     "nombre": "Oktubre",
                     "portada": "./assets/images/bandas/Patricio rey/mbid-2afdb85c-738c-4a68-9d46-ffe32c138002-22424315483_thumb250.jpg",
@@ -644,6 +734,62 @@
                         {
                             "nombre": "Un buen día",
                             "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Tercer Arco",
+                    "portada": "./assets/images/bandas/Los piojos/arco3r.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Taxi Boy",
+                            "audio": "./assets/canciones/Taxi Boy.mp3"
+                        },
+                        {
+                            "nombre": "Esquina Libertad",
+                            "audio": "./assets/canciones/Esquina Libertad.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Azul",
+                    "portada": "./assets/images/bandas/Los piojos/azul.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Civilización",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Pacífico",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Maquina de Sangre",
+                    "portada": "./assets/images/bandas/Los piojos/maquinadeSangre.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Babilonia",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Ay ay ay",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Verde Paisaje",
+                    "portada": "./assets/images/bandas/Los piojos/verdePaisaje.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Verde Paisaje del Infierno",
+                            "audio": "./assets/canciones/Verde Paisaje del Infierno (2000) - Los Piojos.mp3"
+                        },
+                        {
+                            "nombre": "María y José",
+                            "audio": "./assets/canciones/Los Piojos - María y José (Con letra).mp3"
                         }
                     ]
                 }
@@ -782,13 +928,29 @@
                         {
                             "nombre": "Una nueva noche fría",
                             "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
-                        },
-                        {
-                            "nombre": "Fantasía y realidad",
-                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
                         }
                     ]
                 
+                },
+                {
+                    "nombre": "Señales",
+                    "portada": "./assets/images/bandas/Callejeros/señales.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Todo eso",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                 {
+                    "nombre": "DiscoEscultura",
+                    "portada": "./assets/images/bandas/Callejeros/discoEscultura.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Rebelde, agitador y revolucionario",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        }
+                    ]
                 },
                 {
                     "nombre": "Rocanroles sin destino",
@@ -813,6 +975,60 @@
         "Los Tipitos": {
             "generos": ["rock"],
             "albumes": [
+                {
+                    "nombre": "Cocrouchis",
+                    "portada": "./assets/images/bandas/Los tipitos/cor.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nena:",
+                            "audio": "./assets/canciones/Por qué no puedo ser del jet set.mp3"
+                        },
+                        {
+                            "nombre": "El poli",
+                            "audio": "./assets/canciones/Soda Stereo - Sobredosis de T.V. (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Existen",
+                            "audio": "./assets/canciones/Soda Stereo - Un Misil en Mi Placard (Official Audio).mp3"
+                        }
+                    ] 
+                },
+                {
+                    "nombre": "Armando Camaleón",
+                    "portada": "./assets/images/bandas/Los tipitos/ac.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Campanas en la noche",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "Brujería",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "En el cielo",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "De mi flor",
+                    "portada": "./assets/images/bandas/Los tipitos/dmf.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Los hermanos",
+                            "audio": "./assets/canciones/Soda Stereo - Nada Personal (Official Audio).mp3"
+                        },
+                        {
+                            "nombre": "La sanatera",
+                            "audio": "./assets/canciones/Soda Stereo - Cuando Pase el Temblor (Official Video).mp3"
+                        },
+                        {
+                            "nombre": "El ladrón",
+                            "audio": "./assets/canciones/Juegos de Seducción.mp3"
+                        }
+                    ]
+                },
                 {
                     "nombre": "Cocrouchis",
                     "portada": "./assets/images/bandas/Los tipitos/cor.jpg",
