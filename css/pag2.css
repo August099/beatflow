@@ -78,7 +78,7 @@ p {
 .full-height-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     justify-content: center; /* Centrar vertical si pocos items */
     padding: 20px;
 }

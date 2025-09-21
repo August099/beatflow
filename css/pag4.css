@@ -113,7 +113,7 @@ select {
     margin-top: 5px;
 }
 
-button {
+.pagar {
     background-color: #004080;
     color: white;
     border: none;
